@@ -32,28 +32,28 @@ function App() {
       id: 'ceramic',
       name: 'سيراميك فاخر',
       description: 'تشكيلة راقية من السيراميك الإيطالي والأسباني عالي الجودة',
-      image: 'https://images.pexels.com/photos/6589224/pexels-photo-6589224.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://i.ibb.co/Pvx1ntk0/image.jpg',
       features: ['مقاوم للخدوش والبقع', 'سهل التنظيف والصيانة', 'تشكيلة ألوان وأشكال واسعة', 'مناسب للأرضيات والجدران']
     },
     {
       id: 'marble',
       name: 'رخام طبيعي',
       description: 'أجود أنواع الرخام الطبيعي من أفضل المحاجر العالمية',
-      image: 'https://images.pexels.com/photos/242236/pexels-photo-242236.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://i.ibb.co/3Y7GPDzB/image.jpg',
       features: ['جودة طبيعية 100%', 'مقاوم للحرارة العالية', 'تشطيب فاخر ولامع', 'يزيد قيمة العقار']
     },
     {
       id: 'travertine',
       name: 'ترافرتين فاخر',
       description: 'حجر طبيعي فاخر بملمس مميز وجودة استثنائية من تركيا وإيطاليا',
-      image: 'https://images.pexels.com/photos/37347/marble-floor-texture-floor-tile-background-37347.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://i.ibb.co/mr6y7L8L/image.jpg',
       features: ['ملمس طبيعي فريد', 'عازل حراري ممتاز', 'مقاوم للعوامل الجوية', 'مناسب للديكور الداخلي والخارجي']
     },
     {
       id: 'stone',
       name: 'أحجار طبيعية',
       description: 'تشكيلة متنوعة من الأحجار الطبيعية عالية الجودة والمتانة',
-      image: 'https://images.pexels.com/photos/1204859/pexels-photo-1204859.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://i.ibb.co/PZBfp20t/image.jpg',
       features: ['متانة عالية تدوم لعقود', 'تصاميم وألوان طبيعية فريدة', 'صديق للبيئة', 'يتحسن مع الوقت']
     }
   ];
@@ -63,28 +63,28 @@ function App() {
       id: 1,
       title: 'فيلا فاخرة - الكويت',
       category: 'marble',
-      image: 'https://images.pexels.com/photos/1123972/pexels-photo-1123972.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://i.ibb.co/3Y7GPDzB/image.jpg',
       description: 'تشطيب رخامي كامل لفيلا بمساحة 800 متر مربع بأجود أنواع الرخام الإيطالي'
     },
     {
       id: 2,
       title: 'مكتب إداري - الجهراء',
       category: 'ceramic',
-      image: 'https://images.unsplash.com/photo-1574629810360-7efbbe195a64?auto=format&fit=crop&w=800',
+      image: 'https://i.ibb.co/Pvx1ntk0/image.jpg',
       description: 'سيراميك فاخر لمكاتب إدارية بمساحة 1200 متر مربع مع تشطيبات عصرية'
     },
     {
       id: 3,
       title: 'قصر - العارضية',
       category: 'travertine',
-      image: 'https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://i.ibb.co/mr6y7L8L/image.jpg',
       description: 'تشطيب ترافرتين لقصر بتصميم كلاسيكي مع لمسات عصرية راقية'
     },
     {
       id: 4,
       title: 'مجمع تجاري - السالمية',
       category: 'stone',
-      image: 'https://images.pexels.com/photos/2343465/pexels-photo-2343465.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://i.ibb.co/PZBfp20t/image.jpg',
       description: 'أحجار طبيعية للواجهات الخارجية والديكورات الداخلية'
     }
   ];
@@ -228,7 +228,7 @@ function App() {
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url('https://images.pexels.com/photos/37347/marble-floor-texture-floor-tile-background-37347.jpeg?auto=compress&cs=tinysrgb&w=1600')`,
+            backgroundImage: `url('https://i.ibb.co/3Y7GPDzB/image.jpg')`,
             filter: 'grayscale(100%)'
           }}
         >
@@ -791,6 +791,7 @@ function App() {
           </div>
         </div>
       </footer>
+
       {/* Structured Data */}
       <script type="application/ld+json">
         {JSON.stringify({
