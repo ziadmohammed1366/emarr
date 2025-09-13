@@ -791,7 +791,6 @@ function App() {
           </div>
         </div>
       </footer>
-
       {/* Structured Data */}
       <script type="application/ld+json">
         {JSON.stringify({
