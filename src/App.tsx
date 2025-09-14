@@ -32,28 +32,28 @@ function App() {
       id: 'ceramic',
       name: 'سيراميك فاخر',
       description: 'تشكيلة راقية من السيراميك الإيطالي والأسباني عالي الجودة',
-      image: '/images/ceramic-luxury.jpg',
+      image: 'https://i.ibb.co/Pvx1ntk0/image.jpg',
       features: ['مقاوم للخدوش والبقع', 'سهل التنظيف والصيانة', 'تشكيلة ألوان وأشكال واسعة', 'مناسب للأرضيات والجدران']
     },
     {
       id: 'marble',
       name: 'رخام طبيعي',
       description: 'أجود أنواع الرخام الطبيعي من أفضل المحاجر العالمية',
-      image: '/images/marble-natural.jpg',
+      image: 'https://i.ibb.co/3Y7GPDzB/image.jpg',
       features: ['جودة طبيعية 100%', 'مقاوم للحرارة العالية', 'تشطيب فاخر ولامع', 'يزيد قيمة العقار']
     },
     {
       id: 'travertine',
       name: 'ترافرتين فاخر',
       description: 'حجر طبيعي فاخر بملمس مميز وجودة استثنائية من تركيا وإيطاليا',
-      image: '/images/travertine-luxury.jpg',
+      image: 'https://i.ibb.co/mr6y7L8L/image.jpg',
       features: ['ملمس طبيعي فريد', 'عازل حراري ممتاز', 'مقاوم للعوامل الجوية', 'مناسب للديكور الداخلي والخارجي']
     },
     {
       id: 'stone',
       name: 'أحجار طبيعية',
       description: 'تشكيلة متنوعة من الأحجار الطبيعية عالية الجودة والمتانة',
-      image: '/images/natural-stone.jpg',
+      image: 'https://i.ibb.co/PZBfp20t/image.jpg',
       features: ['متانة عالية تدوم لعقود', 'تصاميم وألوان طبيعية فريدة', 'صديق للبيئة', 'يتحسن مع الوقت']
     }
   ];
@@ -63,28 +63,28 @@ function App() {
       id: 1,
       title: 'فيلا فاخرة - الكويت',
       category: 'marble',
-      image: '/images/project-villa-marble.jpg',
+      image: 'https://i.ibb.co/3Y7GPDzB/image.jpg',
       description: 'تشطيب رخامي كامل لفيلا بمساحة 800 متر مربع بأجود أنواع الرخام الإيطالي'
     },
     {
       id: 2,
       title: 'مكتب إداري - الجهراء',
       category: 'ceramic',
-      image: '/images/project-office-ceramic.jpg',
+      image: 'https://i.ibb.co/Pvx1ntk0/image.jpg',
       description: 'سيراميك فاخر لمكاتب إدارية بمساحة 1200 متر مربع مع تشطيبات عصرية'
     },
     {
       id: 3,
       title: 'قصر - العارضية',
       category: 'travertine',
-      image: '/images/project-palace-travertine.jpg',
+      image: 'https://i.ibb.co/mr6y7L8L/image.jpg',
       description: 'تشطيب ترافرتين لقصر بتصميم كلاسيكي مع لمسات عصرية راقية'
     },
     {
       id: 4,
       title: 'مجمع تجاري - السالمية',
       category: 'stone',
-      image: '/images/project-commercial-stone.jpg',
+      image: 'https://i.ibb.co/PZBfp20t/image.jpg',
       description: 'أحجار طبيعية للواجهات الخارجية والديكورات الداخلية'
     }
   ];
@@ -158,7 +158,7 @@ function App() {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
               <img 
-                src="/images/logo.svg" 
+                src="https://i.ibb.co/ccjfVNGH/555.png" 
                 alt="EMAR Kuwait Logo" 
                 className={`h-10 w-auto transition-all duration-300 ${darkMode ? 'filter invert' : ''}`}
               />
@@ -228,7 +228,7 @@ function App() {
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url('/images/hero-background.jpg')`,
+            backgroundImage: `url('https://i.ibb.co/3Y7GPDzB/image.jpg')`,
             filter: 'grayscale(100%)'
           }}
         >
@@ -728,7 +728,7 @@ function App() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div className="col-span-1 md:col-span-2">
               <img 
-                src="/images/logo.svg" 
+                src="https://i.ibb.co/ccjfVNGH/555.png" 
                 alt="EMAR Kuwait Logo" 
                 className={`h-12 w-auto mb-4 transition-all duration-300 ${darkMode ? 'filter invert' : ''}`}
               />
