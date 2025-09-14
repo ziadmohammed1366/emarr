@@ -730,7 +730,7 @@ function App() {
               <img 
                 src="https://i.ibb.co/PvhYzZL6/image.png" 
                 alt="EMAR Kuwait Logo" 
-                className={`h-12 w-auto mb-4 transition-all duration-300 ${darkMode ? 'filter invert' : ''}`}
+                className={`h-24 w-auto mb-8 transition-all duration-600 ${darkMode ? 'filter invert' : ''}`}
               />
               <p className={`${darkMode ? 'text-gray-300' : 'text-gray-600'} leading-relaxed mb-4`}>
                 شركة إعمار الكويتية متخصصة في توريد وتركيب أجود أنواع مواد التشطيب الفاخرة
