@@ -160,7 +160,7 @@ function App() {
               <img 
                 src="https://i.ibb.co/PvhYzZL6/image.png" 
                 alt="EMAR Kuwait Logo" 
-                className={`h-10 w-auto transition-all duration-300 ${darkMode ? 'filter invert' : ''}`}
+                className={`h-20 w-auto transition-all duration-300 ${darkMode ? 'filter invert' : ''}`}
               />
             </div>
             
