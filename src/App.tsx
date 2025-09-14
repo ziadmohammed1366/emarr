@@ -639,10 +639,10 @@ function App() {
                     <div>
                       <p className={`font-semibold ${darkMode ? 'text-white' : 'text-black'}`}>البريد الإلكتروني</p>
                       <a 
-                        href="mailto:contact@emar-demo.com"
+                        href="mailto:info@emarkuwait.com"
                         className={`transition-colors hover:${darkMode ? 'text-gray-300' : 'text-gray-600'}`}
                       >
-                        contact@emar-demo.com
+                       info@emarkuwait.com
                       </a>
                     </div>
                   </div>
@@ -800,7 +800,7 @@ function App() {
           "name": "EMAR KUWAIT COMPANY",
           "url": "https://emarkuwait.com",
           "telephone": "+96566303444",
-          "email": "contact@emar-demo.com",
+          "email": "info@emarkuwait.com",
           "address": {
             "@type": "PostalAddress",
             "addressCountry": "KW",
