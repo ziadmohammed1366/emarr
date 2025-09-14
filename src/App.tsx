@@ -158,7 +158,7 @@ function App() {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
               <img 
-                src="https://i.ibb.co/ccjfVNGH/555.png" 
+                src="https://i.ibb.co/PvhYzZL6/image.png" 
                 alt="EMAR Kuwait Logo" 
                 className={`h-10 w-auto transition-all duration-300 ${darkMode ? 'filter invert' : ''}`}
               />
@@ -728,7 +728,7 @@ function App() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div className="col-span-1 md:col-span-2">
               <img 
-                src="https://i.ibb.co/ccjfVNGH/555.png" 
+                src="https://i.ibb.co/PvhYzZL6/image.png" 
                 alt="EMAR Kuwait Logo" 
                 className={`h-12 w-auto mb-4 transition-all duration-300 ${darkMode ? 'filter invert' : ''}`}
               />
